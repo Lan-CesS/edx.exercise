@@ -26,7 +26,14 @@
   margin: 0;
   padding: 0;
 }
-
+#paesaggio{
+  width: 80%;
+  margin-top:20px;
+  margin-bottom:20px;
+  position: relative ;
+  display: block;
+  margin-left: 10%;
+}
 .menuitem {
   background: #CDF0F6;
   border: 1px solid #d4d4d4;
@@ -40,7 +47,7 @@
 
 
 h1{
-   color:black;
+   color:green;
    background-color:white;
 }
 h2{
@@ -83,4 +90,18 @@ li{
   .menuitem{color: black; background-color: white;}
   #main {margin-left: 616px;}
   #wrapper{ width: 45%;}
+}
+
+/* Link */
+a:link {
+  color: orange;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: pink;
+}
+a:active {
+  color: yellow;
 }
